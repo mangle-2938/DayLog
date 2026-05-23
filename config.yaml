@@ -1,0 +1,49 @@
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+
+obsidian:
+  vault_path: "C:/obsidian/obsidian/DayLog"
+  daily_notes_folder: "Daily Notes"
+
+activitywatch:
+  host: "localhost"
+  port: 5600
+  min_app_time_minutes: 3
+
+schedule:
+  time: "20:30"
+  timezone: "Asia/Seoul"
+
+summary:
+  language: "korean"
+  max_tokens: 800
+
+projects:
+  달잠슬립롬:
+    keywords: ["dalzam", "슬립", "수면", "sleep"]
+    urls: ["sleep", "dalzam"]
+    goal_hours_per_day: 2
+    type: "제작"
+
+  ComfyUI이미지생성:
+    keywords: ["comfyui", "portrait", "flux", "이미지", "ComfyUI"]
+    urls: ["civitai.com", "huggingface.co"]
+    goal_hours_per_day: 3
+    type: "제작"
+
+  AI자동화시스템구축:
+    keywords: ["automation", "ai_system", "DayLog", "cmd.exe", "cmd", "python"]
+    urls: ["github.com", "docs.python.org", "claude.ai"]
+    goal_hours_per_day: 2
+    type: "제작"
+
+  일반작업:
+    keywords: ["obsidian", "notepad", "explorer", "whale", "chrome", "calendar", "에이닷"]
+    urls: ["calendar.google.com", "aidot", "naver.com"]
+    goal_hours_per_day: 0
+    type: "기타"
+
+consumption:
+  urls: ["youtube.com", "instagram.com", "twitter.com", "tiktok.com", "naver.com/news"]
+  apps: ["KakaoTalk.exe"]

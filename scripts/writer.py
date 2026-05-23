@@ -2,7 +2,7 @@ import os
 from datetime import date, timedelta
 
 
-def write_to_obsidian(summary, data, config):
+def write_to_obsidian(summary, data, config, result=None):
     """Obsidian Daily Notes 폴더에 마크다운 저장"""
     print("📝 Obsidian에 저장 중...")
     
