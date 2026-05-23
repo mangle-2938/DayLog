@@ -1,0 +1,20 @@
+ai:
+  provider: "gemini"
+  model: "gemini-2.5-flash"
+
+obsidian:
+  vault_path: "C:/obsidian/obsidian/YourVaultName"
+  daily_notes_folder: "Daily Notes"
+
+activitywatch:
+  host: "localhost"
+  port: 5600
+  min_app_time_minutes: 3
+
+schedule:
+  time: "20:30"
+  timezone: "Asia/Seoul"
+
+summary:
+  language: "korean"
+  max_tokens: 800
